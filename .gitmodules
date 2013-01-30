@@ -1,51 +1,6 @@
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/taglist.vim"]
-	path = .vim/bundle/taglist.vim
-	url = git://github.com/vim-scripts/taglist.vim.git
-[submodule "vim-powerline"]
-	path = vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "AutoClose"]
+	path = .vim/bundle/AutoClose
+	url = git://github.com/vim-scripts/AutoClose.git
 [submodule "camelcasemotion"]
 	path = camelcasemotion
 	url = git://github.com/vim-scripts/camelcasemotion.git
-[submodule "syntastic"]
-	path = syntastic
-	url = git://github.com/scrooloose/syntastic.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
-[submodule ".vim/bundle/camelcasemotion"]
-	path = .vim/bundle/camelcasemotion
-	url = git://github.com/vim-scripts/camelcasemotion.git
-[submodule ".vim/bundle/vim-powerline"]
-	path = .vim/bundle/vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
-[submodule ".vim/bundle/vim-surround"]
-	path = .vim/bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule ".vim/bundle/AutoClose"]
-	path = .vim/bundle/AutoClose
-	url = git://github.com/vim-scripts/AutoClose.git
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule ".vim/bundle/neocomplecache"]
-	path = .vim/bundle/neocomplecache
-	url = git://github.com/Shougo/neocomplcache.git
-[submodule ".vim/bundle/neocomplecache-snippets-complete"]
-	path = .vim/bundle/neocomplecache-snippets-complete
-	url = git://github.com/Shougo/neocomplcache-snippets-complete.git
-[submodule ".vim/bundle/haskellmode-vim"]
-	path = .vim/bundle/haskellmode-vim
-	url = git://github.com/johntyree/haskellmode-vim.git
-[submodule ".vim/bundle/neco-ghc"]
-	path = .vim/bundle/neco-ghc
-	url = git://github.com/ujihisa/neco-ghc.git
-[submodule ".vim/bundle/vim-hoogle"]
-	path = .vim/bundle/vim-hoogle
-	url = git://github.com/Twinside/vim-hoogle.git
-[submodule "AutoClose"]
-	path = AutoClose
-	url = git://github.com/vim-scripts/AutoClose.git
