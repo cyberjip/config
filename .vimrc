@@ -38,9 +38,9 @@ python from powerline.bindings.vim import source_plugin; source_plugin()
 source /home/user/.vim/bundle/powerline/powerline/bindings/vim/plugin/source_plugin.vim
 let g:Powerline_symbols = 'fancy'
 
-""set guifont=Inconsolata-dz\ for\ Powerline\ 10
+set guifont=Inconsolata-dz\ for\ Powerline\ 10
 
-""set background=dark
+set background=dark
 ""colorscheme solarized
 if has("gui_running")
 	set guioptions=ac
