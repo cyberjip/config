@@ -34,12 +34,14 @@ au BufEnter * match ExtraWhitespace /\S\zs\s\+$/
 au InsertEnter * match ExtraWhitespace /\S\zs\s\+\%#\@<!$/
 au InsertLeave * match ExtraWhiteSpace /\S\zs\s\+$/
 set fillchars+=stl:\ ,stlnc:\
+python from powerline.bindings.vim import source_plugin; source_plugin()
+source /home/user/.vim/bundle/powerline/powerline/bindings/vim/plugin/source_plugin.vim
 let g:Powerline_symbols = 'fancy'
 
-set guifont=inconsolata-dz\ for\ Powerline\ 10
+""set guifont=Inconsolata-dz\ for\ Powerline\ 10
 
-set background=dark
-colorscheme solarized
+""set background=dark
+""colorscheme solarized
 if has("gui_running")
 	set guioptions=ac
 	set lines=60
