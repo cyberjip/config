@@ -34,8 +34,6 @@ au BufEnter * match ExtraWhitespace /\S\zs\s\+$/
 au InsertEnter * match ExtraWhitespace /\S\zs\s\+\%#\@<!$/
 au InsertLeave * match ExtraWhiteSpace /\S\zs\s\+$/
 set fillchars+=stl:\ ,stlnc:\
-python from powerline.bindings.vim import source_plugin; source_plugin()
-source /home/user/.vim/bundle/powerline/powerline/bindings/vim/plugin/source_plugin.vim
 let g:Powerline_symbols = 'fancy'
 
 set guifont=Inconsolata-dz\ for\ Powerline\ 10
